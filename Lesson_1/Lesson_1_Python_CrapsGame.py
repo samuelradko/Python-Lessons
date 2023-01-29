@@ -1,10 +1,10 @@
-import random 
-sum = random.randint(1,6) + random.randint(1,6)
-print("You got: " + str(sum))
-win = False
 # in the code I use the "while" loop to run the multiple times until the right number is met (7,11,2,3,12), if the "win" stay false 
 # then the game will continue to the second round, and will stop until the numbers are met which then my "Win" varuable will swtich into True from False 
 # and the game will end, if the "Win" will stay False then the while loop will continue to run the game until it hits on of the numbers.
+import random 
+sum = random.randint(1,6) + random.randint(1,6)
+print("You got: " + str(sum))
+win = False # set the "Win" False, game will continue until the "Win" will turn to "True"
 
 # loop until player wins or loses
 while not win:
